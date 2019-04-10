@@ -2,9 +2,9 @@ package Lesson1.Cat;
 
 public class Cat {
 
-    String name;
-   String color;
-   int age;
+   private String name;
+   private String color;
+   private int age;
    private double weight;
    Cat(String name, String color,int age, double weight ){
 this.name=name;
@@ -21,9 +21,7 @@ void hungry(){
 void jump(){
        System.out.println("JUMP ON FACE");
 }
-void lick(){
-       System.out.println("Lick my face");
-}
+
 void badAttitude(){
        System.out.println("Hate every guests");
     }
